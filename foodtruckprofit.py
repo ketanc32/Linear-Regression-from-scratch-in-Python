@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plotlib
 
-data=np.loadtxt("ex1data1.txt",delimiter=",")
+data=np.loadtxt("data1.txt",delimiter=",")
 population=data[:,:1]
 (m,k)=population.shape
 profit=data[:,1:2]
