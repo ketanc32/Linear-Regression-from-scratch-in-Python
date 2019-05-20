@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plotlib
 
-data=np.loadtxt("ex1data2.txt",delimiter=",")
+data=np.loadtxt("data2.txt",delimiter=",")
 (m,k)=data.shape
 parameters=data[:,:k-1]
 house_prices=data[:,k-1:k]
